@@ -1,0 +1,459 @@
+@media only screen and (max-width: 1044px) {
+    /* For desktop: */
+    .overlay img {
+        height: auto;
+        width: 40%;
+    }
+    .col-7 {
+        width: 58.33%;
+        font-size: 19px;
+    }
+    /* nav */
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 10vh;
+        background: linear-gradient(360deg, #333333 14.85%, #FFFFFF 498.02%);
+        color: #FFFFFF;
+        align-items: center;
+        text-transform: uppercase;
+        font-size: 10px;
+        /* overflow: hidden; */
+    }
+    nav.sticky {
+        margin-top: -200px;
+    }
+    .contact h1 {
+        font-size: 20px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    .menu li {
+        display: inline-block;
+        padding: 0px 13px;
+        font-size: 12px;
+    }
+    .bg-title {
+        padding: 100px;
+        color: white;
+        font-size: 4vw;
+        position: absolute;
+        text-align: center;
+    }
+    /* nav */
+    /* footer */
+    .bm-footer {
+        height: 100%;
+        background: linear-gradient(24.99deg, #236432 -87.27%, #3DF7AB 175.57%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+        color: white;
+        overflow: hidden;
+        text-align: center;
+    }
+    .content-info p {
+        width: 100%;
+        line-height: 26px;
+    }
+    .footer-content-title {
+        margin: 50px 10px;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 2px;
+    }
+    .content-info h3 {
+        margin-bottom: 10px;
+    }
+    .contact-form-title {
+        font-size: 25px;
+    }
+    .content-form input[type=text] {
+        width: 100%;
+        height: 50px;
+        outline: none;
+    }
+    .contact-form {
+        width: 400px;
+    }
+    .content-form textarea {
+        width: 100%;
+        height: 20%;
+        outline: none;
+    }
+    .content-form input[type=submit] {
+        width: 100%;
+        border-radius: 15px;
+        padding: 15px;
+        border: none;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: #333333;
+        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
+        outline: none;
+        cursor: pointer;
+        margin-bottom: 50px;
+    }
+    .content-form input[type=submit]:hover {
+        background: #427bc5;
+        color: white;
+    }
+    .content-form input[type=submit]:active {
+        background: #1C497C;
+        transform: translateY(4px);
+    }
+    /* footer */
+}
+
+@media only screen and (max-width: 948px) {
+    /* For tablets: */
+    .menu li {
+        display: inline-block;
+        padding: 0px 10px;
+        font-size: 10px;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        background: #E5E5E5;
+        justify-content: center;
+        /* padding: 50px 20px; */
+        overflow: hidden;
+    }
+    .content-vids-search {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin-left: 0rem;
+    }
+    .search {
+        background: linear-gradient(360deg, #333333 14.85%, #FFFFFF 498.02%);
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-content: center;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+        margin-top: 10px;
+        box-shadow: -6px 10px 20px rgba(0, 0, 0, 0.5);
+    }
+    .search input {
+        height: auto;
+        width: 50%;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        padding-left: 20px;
+    }
+    .news-events {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .events {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    .article-news a {
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 600;
+        width: 100%;
+        margin-left: 10px;
+    }
+    .content-news p {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 200;
+        line-height: 26px;
+    }
+    .img-news img {
+        height: auto;
+        width: 100%;
+        object-fit: cover;
+        margin-top: 20px;
+    }
+    .img-events img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .advertisement {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-left: 0px;
+        /* background: rosybrown; */
+        width: 100%;
+    }
+    /* .ads1{
+    margin-left: 0px;
+    object-fit: cover;
+    height: 260px;
+    width: 112.4%;
+    margin-top: 30px;
+   
+} */
+    .ads1 p {
+        flex-direction: row;
+        overflow: auto;
+    }
+    .ads1 {
+        /* background: rgb(122, 25, 16); */
+        margin-top: 20px;
+        margin-left: 0px;
+        /* object-fit: cover; */
+        width: 100%;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+    }
+    .ads1 img,
+    .ads1 a {
+        /* object-fit: cover; */
+        /* height: 260px;*/
+        width: 100%;
+        border-radius: 5px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .hotline-title {
+        font-size: 22px;
+        letter-spacing: 1px;
+        /* margin-bottom: 50px; */
+        background: linear-gradient(24.99deg, #236432 -87.27%, #3DF7AB 175.57%);
+        height: 10vh;
+        width: 95%;
+        text-align: center;
+        padding: 10px;
+        color: white;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 5px 5px 0px 0px;
+        box-shadow: -6px 10px 20px rgba(0, 0, 0, 0.5);
+    }
+    .hotline-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 95%;
+        height: 100%;
+        padding-top: 50px;
+        background: linear-gradient(360deg, #333333 14.85%, #FFFFFF 498.02%);
+        border-radius: 0px 0px 5px 5px;
+        box-shadow: -6px 10px 20px rgba(0, 0, 0, 0.5);
+    }
+    .hotline2,
+    .hotline1 {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin-bottom: 50px;
+    }
+    .hotline2 p,
+    .hotline1 p {
+        color: #FFFFFF;
+        /* margin-right: 10px; */
+        font-size: 17px;
+        text-transform: uppercase;
+        font-weight: bolder;
+    }
+    .hotline2 span,
+    .hotline1 span {
+        font-size: 15px;
+        color: #FFFFFF;
+        font-weight: 100;
+        letter-spacing: 2px;
+    }
+    .hotline2 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    /* end */
+}
+
+
+/* <-----END-------> */
+
+@media only screen and (max-width: 790px) {
+    nav {
+        display: none;
+    }
+    .topnav {
+        display: inherit;
+        overflow: hidden;
+        z-index: 10000;
+        transition: 0.6s;
+        width: 100%;
+        z-index: 1000000;
+        background: linear-gradient(360deg, #333333 14.85%, #FFFFFF 498.02%);
+    }
+    .topnav .sticky {
+        margin-top: -100px;
+    }
+    .topnav a {
+        float: left;
+        display: block;
+        color: #333333;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .active {
+        background-color: #236432;
+        color: white;
+        font-weight: 900;
+    }
+    .topnav .icon {
+        display: none;
+    }
+    .dropdown {
+        float: left;
+        overflow: hidden;
+    }
+    .dropdown .dropbtn {
+        font-size: 17px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+    .topnav a:hover,
+    .dropdown:hover .dropbtn {
+        background-color: #555;
+        color: white;
+    }
+    .dropdown-content a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+    .dropdown-content a {
+        color: white;
+    }
+    .dropdown-content {
+        background: #333333;
+    }
+    .official-photo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .sub-photo {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .councilor img {
+        height: auto;
+        width: 90%;
+        object-fit: cover;
+        margin-left: 1px;
+    }
+    .content {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
+        background: #E5E5E5;
+        justify-content: center;
+        padding: 10px;
+        margin-top: 100px;
+    }
+    .news {
+        height: 100%;
+        width: 100%;
+        background: white;
+        border-radius: 5px;
+        overflow: auto;
+        box-shadow: -6px 10px 20px rgba(0, 0, 0, 0.5);
+        padding: 0px 0px 50px 0px;
+    }
+    .contact h1 {
+        text-align: center;
+    }
+    .bm-icon {
+        display: none;
+    }
+    .bm-icons {
+        height: auto;
+        width: 50px;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .topnav a:not(:first-child),
+    .dropdown .dropbtn {
+        display: none;
+    }
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 790px) {
+    .topnav.responsive {
+        position: relative;
+    }
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .topnav.responsive .dropdown {
+        float: none;
+    }
+    .topnav.responsive .dropdown-content {
+        position: relative;
+    }
+    .topnav.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 688px) {
+    .ads1 p {
+        flex-flow: row wrap;
+    }
+}

@@ -1,0 +1,73 @@
+/* Simple Table Manager */
+
+.stm_help {
+  color: DarkGreen;
+  font-style: oblique;
+}
+
+/* controls */
+
+.stm_controls {
+  padding: 0 0 8px 0;
+}
+.wp-core-ui .stm_controls .button,
+.wp-core-ui .stm_controls .button-secondary {
+  margin-right: 12px;
+}
+.stm_controls form {
+  display: inline-block;
+}
+.stm_controls form input {
+  width: 200px;
+}
+.wp-core-ui .updated .button,
+.wp-core-ui .updated .button-secondary {
+	margin-left: 16px;
+}
+
+/* list */
+
+.widefat {
+  width: auto;
+}
+.toplevel_page_simple_table_manager_list  .widefat td {
+  border: thin solid white;
+}
+.toplevel_page_simple_table_manager_list  .widefat tr:nth-child(odd) td {
+  background-color: #FFF6EE;
+}
+
+/* list navigation */
+
+.toplevel_page_simple_table_manager_list .tablenav .tablenav-pages {
+  float: none;
+  text-align: center;
+}
+.toplevel_page_simple_table_manager_list .paging-input {
+  padding: 0 8px;
+}
+
+/* edit, insert & settings */
+
+.admin_page_simple_table_manager_insert input[type="text"],
+.admin_page_simple_table_manager_insert input[type="number"],
+.admin_page_simple_table_manager_edit input[type="text"],
+.admin_page_simple_table_manager_edit input[type="number"],
+.admin_page_simple_table_manager_settings input[type="number"],
+.admin_page_simple_table_manager_settings select {
+  width: 400px;
+  min-height: 28px;
+}
+.admin_page_simple_table_manager_insert textarea,
+.admin_page_simple_table_manager_edit textarea {
+  width: 400px;
+  height: 10em;
+}
+.admin_page_simple_table_manager_insert input[type="date"],
+.admin_page_simple_table_manager_insert input[type="time"],
+.admin_page_simple_table_manager_edit input[type="date"],
+.admin_page_simple_table_manager_edit input[type="time"],
+.admin_page_simple_table_manager_settings input[type="text"] {
+  width: 150px;
+  min-height: 28px;
+}

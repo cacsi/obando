@@ -1,0 +1,43 @@
+.tile-footer {
+	padding: 5px 8px;
+    background-color: #cfe0e8;
+    color: white
+}
+
+.tile-body {
+	padding: 15px;
+	color: #FFFFFF;
+    line-height: 48px;
+    background-color: #87bdd8;
+}
+
+.tile .tile-body i {
+	font-size: 50px;
+	opacity: 0.3;
+	transition: all 1s;
+}
+.tile:hover .tile-body i {
+	color: #FFFFFF;
+	opacity: 1;
+}
+.tile .tile-body h2 {
+	font-size: 42px;
+}
+
+.tile-heading {
+	padding: 5px 8px;
+	text-transform: uppercase;
+	background-color:#bccad6;
+	color: black;
+}
+.tile .tile-heading .pull-right {
+	transition: all 1s;
+	opacity: 0.7;
+}
+.tile:hover .tile-heading .pull-right {
+	opacity: 1;
+}
+
+.pull-right{
+    float: right;
+}

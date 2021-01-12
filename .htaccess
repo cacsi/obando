@@ -1,0 +1,24 @@
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteRule ^android-chrome-192x192\.png /wp-content/uploads/fbrfg/android-chrome-192x192.png [QSA,L]
+RewriteRule ^android-chrome-384x384\.png /wp-content/uploads/fbrfg/android-chrome-384x384.png [QSA,L]
+RewriteRule ^apple-touch-icon\.png /wp-content/uploads/fbrfg/apple-touch-icon.png [QSA,L]
+RewriteRule ^browserconfig\.xml /wp-content/uploads/fbrfg/browserconfig.xml [QSA,L]
+RewriteRule ^favicon-16x16\.png /wp-content/uploads/fbrfg/favicon-16x16.png [QSA,L]
+RewriteRule ^favicon-32x32\.png /wp-content/uploads/fbrfg/favicon-32x32.png [QSA,L]
+RewriteRule ^favicon\.ico /wp-content/uploads/fbrfg/favicon.ico [QSA,L]
+RewriteRule ^mstile-150x150\.png /wp-content/uploads/fbrfg/mstile-150x150.png [QSA,L]
+RewriteRule ^site\.webmanifest /wp-content/uploads/fbrfg/site.webmanifest [QSA,L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+
+# END WordPress
