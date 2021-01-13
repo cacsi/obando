@@ -25,8 +25,9 @@ $size = 'full'; // (thumbnail, medium, large, full or custom size); ?>
 
 
      .adsection{
-         width: 70%;
+         width: 100%;
          padding-left: 50px;
+         padding-right: 50px;
 
      }
 

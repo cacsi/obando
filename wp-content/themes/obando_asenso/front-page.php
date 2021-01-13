@@ -2,6 +2,9 @@
 
  <?php $hero = get_field('hero');?>
  <?php $searchdata = get_field('searchdata');?>
+ <?php $picanimation = get_field('homepagemovingpictures');?>
+ 
+ 
 
 
  <style>
@@ -23,10 +26,10 @@
      </div>
 
      <div class="bg-header">
-         <img src="<?php bloginfo('template_directory');?>/bg-image/obando-gsap.png" alt="heloo">
+         <img src="<?php echo $picanimation['header_img']; ?>" alt="heloo">
      </div>
      <div class="bg-text">
-         <img src="<?php bloginfo('template_directory');?>/image/tuloyangasenso.png" alt="heloo">
+         <img src="<?php echo $picanimation['text_img'];?>" alt="heloo">
      </div>
 
      <div class="bg-button">
@@ -38,17 +41,17 @@
      </div>
 
      <div class="bg-mayor">
-         <img src="<?php bloginfo('template_directory');?>/bg-image/mayor-gsap.png" alt="heloo">
+         <img src="<?php echo $picanimation['mayor_img']; ?>" alt="heloo">
      </div>
 
 
      <div class="bg-muni">
-         <img src="<?php bloginfo('template_directory');?>/bg-image/muni-gsap.png" alt="heloo">
+         <img src="<?php echo $picanimation['municipal_img']; ?>" alt="heloo">
      </div>
 
 
      <div class="bg-logo">
-         <img src="<?php bloginfo('template_directory');?>/bg-image/logo-gsap.png" alt="heloo">
+         <img src="<?php echo $picanimation['logo_img'];?>" alt="heloo">
 
      </div>
 

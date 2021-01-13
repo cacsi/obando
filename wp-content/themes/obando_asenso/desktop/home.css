@@ -256,6 +256,7 @@ color: #1C497C;
             top: 16vh;
             left: 10vh;
             transition: ease 1s;
+            z-index: 9999999;
         }
         
         .bg-text img {
@@ -268,12 +269,13 @@ color: #1C497C;
         
         .bg-logo img {
             position: absolute;
-            height: 60vh;
-            width: 60vh;
-            top: 0vh;
-            right: 10vh;
-            filter: opacity(30%);
+            height: 50vh;
+            width: 50vh;
+            top: 10vh;
+            right: 50vh;
+            filter: opacity(15%);
             transition: ease 1s;
+            z-index: 0;
         }
         
         .bg-muni img {
@@ -453,7 +455,6 @@ color: #1C497C;
             flex-direction: column;
             justify-content: center;
             padding: 20px;
-            border: #c0c0c0 solid 0.2px;
         }
         
         .img-news {

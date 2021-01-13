@@ -64,8 +64,9 @@ margin-left: 5rem;
 
 
 .adsection{
-         width: 70%;
+         width: 100%;
          padding-left: 90px;
+         padding-right:90px;
          margin-bottom:30px;
 
      }

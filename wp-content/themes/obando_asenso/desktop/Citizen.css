@@ -262,6 +262,7 @@ li:hover {
     flex-direction: column;
     justify-content: center;
     padding: 20px;
+    border: none
     /* border: #c0c0c0 solid 0.2px; */
 }
 

@@ -353,6 +353,40 @@ else if (is_page(278) ){
 		wp_enqueue_style('mobile');
 	
 		}
+
+		else if (is_page(750) ){
+
+			wp_register_style('home',  get_template_directory_uri() . '/desktop/home.css', array(), 1, 'all');
+			wp_enqueue_style('home');
+		
+			wp_register_style('application',  get_template_directory_uri() . '/desktop/history.css', array(), 1, 'all');
+			wp_enqueue_style('application');	
+	
+			 wp_register_style('tablet-news',  get_template_directory_uri() . '/tablet/tablet-news-content.css', array(), 1, 'all');
+			wp_enqueue_style('tablet-news');
+	
+	
+			wp_register_style('mobile',  get_template_directory_uri() . '/mobile/mobile-home.css', array(), 1, 'all');
+			wp_enqueue_style('mobile');
+		
+			}
+
+			else if (is_page(760) ){
+
+				wp_register_style('home',  get_template_directory_uri() . '/desktop/home.css', array(), 1, 'all');
+				wp_enqueue_style('home');
+			
+				wp_register_style('tourism',  get_template_directory_uri() . '/desktop/history.css', array(), 1, 'all');
+				wp_enqueue_style('tourism');	
+		
+				 wp_register_style('tablet-news',  get_template_directory_uri() . '/tablet/tablet-news-content.css', array(), 1, 'all');
+				wp_enqueue_style('tablet-news');
+		
+		
+				wp_register_style('mobile',  get_template_directory_uri() . '/mobile/mobile-home.css', array(), 1, 'all');
+				wp_enqueue_style('mobile');
+			
+				}
 }
 
 
