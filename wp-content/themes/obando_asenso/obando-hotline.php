@@ -14,7 +14,8 @@ Template Name: Hotline Numbers
 
 <style>
     .adsection{
-         width: 70%;
+         width: 100%;
+         padding-right:90px;
          padding-left: 90px;
          margin-bottom:30px;
 

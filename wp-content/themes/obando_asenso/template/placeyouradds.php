@@ -60,6 +60,7 @@
 	font-family: Roboto;
 	font-size: 11px;
 	text-align: center;
+	padding-bottom:5px;
 }
 
 
