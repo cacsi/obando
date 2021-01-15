@@ -20,7 +20,38 @@ Template Name: Our Province
          width: 100%;
          padding-left: 0px;
 
+
+
      }
+
+
+     .content-news{
+         position:relative;
+        
+     }
+
+     .bg-sketch{
+         height:auto;
+         width:100%;
+         filter: opacity(15%);
+         margin-top:20px;
+        
+     }
+
+     .content-news .divcontent {
+         position:absolute;
+         bottom: 0;
+         top:0;
+         color:black;
+     }
+
+
+
+  
+
+    
+  
+   
 
      @media only screen and (max-width: 1044px) {
         .adsection{
@@ -53,14 +84,21 @@ Template Name: Our Province
                     <p>About Our Municipality</p>
                 </div>
             <div class="img-date">
+
+             
                 <!--  -->
                 <div class="article-news">
                     
                 <!--  -->
                 <!--  -->
                     
-                    <div class="content-news">
-                        <?php echo $about_our_city; ?>
+                    <div class="content-news" >
+
+                        <img class="bg-sketch" src= "<?php bloginfo('template_directory');?>/image/sketch-logo.png" >
+                       
+                       <div class="divcontent">
+                            <?php echo $about_our_city; ?>
+    </div>
                     </div>
                     
                 </div>

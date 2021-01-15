@@ -16,6 +16,10 @@
     overflow: hidden;
 }
 
+textarea {
+   resize: none;
+}
+
 .content-info p {
     width: 80%;
     line-height: 26px;

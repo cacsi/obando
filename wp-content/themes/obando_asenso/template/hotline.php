@@ -1,3 +1,9 @@
+
+
+
+
+<?php $hotlinenumbers = get_field('hotlinenumbers'); ?>
+
 <section class="hotline">
     <div class="hotline-title">
         <h2>OBANDO HOTLINE NUMBERS</h2>
@@ -5,29 +11,29 @@
     <div class="hotline-wrapper">
     <div class="hotline2-container">    
         <div class="hotline1">
-            <p>Public Information Office:</p><span>8277-1356</span>
+            <p>Public Information Office:</p><span><?php echo $hotlinenumbers['publicinformationoffice']; ?></span>
         </div>
         <div class="hotline1">
-            <p>Mayors Complain and Action Team: </p><span> 332 - 7355 / 277 - 1356</span>
+            <p>Mayors Complain and Action Team: </p><span> <?php echo $hotlinenumbers['mayorscomplain']; ?></span>
         </div>
         <div class="hotline1">
-            <p>Mayors Office:</p><span>8277-1356</span>
+            <p>Mayors Office:</p><span><?php echo $hotlinenumbers['mayorsoffice']; ?></span>
         </div>
         <div class="hotline1" style="padding-bottom: 20px;">   
-            <p>Disaster:</p><span>8281-5816</span>
+            <p>Disaster:</p><span><?php echo $hotlinenumbers['disaster']; ?></span>
         </div>
     </div>
         <!-- HOTLINE -->
     <div class="hotline2-container">
         
         <div class="hotline2">
-            <p>Police: </p><span>8292-2043</span>
+            <p>Police: </p><span><?php echo $hotlinenumbers['police']; ?></span>
         </div>
         <div class="hotline2">
-            <p>Fire:</p><span>299-7996</span>
+            <p>Fire:</p><span><?php echo $hotlinenumbers['fire']; ?></span>
         </div>
         <div class="hotline2">   
-            <p>Health:</p><span>8332-2744/ 8709-4408</span>
+            <p>Health:</p><span><?php echo $hotlinenumbers['health']; ?></span>
         </div>
     </div>
     </div>

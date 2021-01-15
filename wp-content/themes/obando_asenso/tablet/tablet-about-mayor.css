@@ -281,7 +281,7 @@
         width: 100%;
         margin-bottom: 20px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
     }
     .ads1 img,
     .ads1 a {
