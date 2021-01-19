@@ -387,6 +387,20 @@ else if (is_page(278) ){
 				wp_enqueue_style('mobile');
 			
 				}
+
+			 else if (is_page(953) ){
+				wp_register_style('home',  get_template_directory_uri() . '/desktop/home.css', array(), 1, 'all');
+				wp_enqueue_style('home');
+			
+				wp_register_style('transparency',  get_template_directory_uri() . '/desktop/ordinances.css', array(), 1, 'all');
+				wp_enqueue_style('transparency');	
+			
+				 wp_register_style('tablet-ordinances',  get_template_directory_uri() . '/tablet/tablet-ordinances.css', array(), 1, 'all');
+				wp_enqueue_style('tablet-ordinances');
+			
+				wp_register_style('mobile',  get_template_directory_uri() . '/mobile/mobile-home.css', array(), 1, 'all');
+				wp_enqueue_style('mobile');
+				}
 }
 
 

@@ -2,67 +2,40 @@
 
 
 /*
-Template Name: Tourism
+Template Name: Transparency
 
 */
 
 ?>
 
 
- <?php get_header(); ?>
- <?php $tourism_data = get_field('tourism');?>
- 
+<?php get_header(); ?>
+<?php $transparency = get_field('transparencytabledata');?>
+
+
+
 <style>
 
-   .content{
-display: flex;
-flex-direction: row;
-height: 100%;
-background: #E5E5E5;
-justify-content: center;
-padding: 50px 20px;
-margin-top: 100px;
-} 
 
-.content-vids-search{
-display: flex;
-flex-direction: column;
-width: 100%;
-margin-left: 5rem;
-
+.article-news {
+    padding: 0px;
 }
 
-
-.title-news {
-    border-radius: 5px 5px 0px 0px;
-    text-transform: uppercase;
-    color: white;
-    padding: 15px 20px;
-    text-align: left;
-    background: linear-gradient(24.99deg, #236432 -87.27%, #3DF7AB 175.57%);
+.title-ordinance h3 {
+    margin-bottom: 20px;
 }
 
-
-.title-news p {
-    font-weight: 900;
-    font-size: 30px;
+.tablepress tbody td {
+      border: 1px solid black;
 }
-
-
-.content-news p {
-    margin-top: 10px;
-    font-size: 17px;
-    font-weight: 200;
-    line-height: 26px;
-    
+tr {
+    border: 1px solid black;
 }
-
-
 
 .adsection{
          width: 100%;
          padding-left: 90px;
-         padding-right: 90px;
+         padding-right:90px;
          margin-bottom:30px;
 
      }
@@ -88,46 +61,61 @@ margin-left: 5rem;
             margin-bottom: 30px;
         }
      }
+
 </style>
+   
 
-  
     <main>
-     <section class="content">
-        <div class="content-vids-search">
-            <div class="news">
-                    <div class="title-news">
-                        <p>TOURISM</p>
-                    </div>
-                    <div class="img-date">
-              
-                          <div class="content-news">
-                        
-                            <?php echo $tourism_data; ?>
-                          </div>
+<section class="content">
+    <div class="content-vids-search2">
+        <div class="news">
+            <div class="title-news">
+                <p>Transparency and Good Governance</p>
+            </div>
 
-                    </div>
-                    
-                </div>
+            <div class="img-date">
                 <!--  -->
+                <div class="article-news">
+                    <div class="content-news">
+                    </div>
+                        <div class="title-ordinance">
+                         
+                            <?php echo $transparency; ?>
+                          
+                               
+                       
+                        </div>
+                    </div> 
+                </div>
             </div>
         </div>
-    </div>
+   
 
     <!-- content -->
-    <div class="advertisement" id="advertisement">
-            </div>
+            <!-- <div class="advertisement">
+                <div class="ads1">
+                    <img src="image/grupo.png" alt="">
+                </div>
+                <div class="ads1">
+                    <img src="image/white.png" alt="">
+                </div>
+                <div class="ads1">
+                    <img src="image/blue.png" alt="">
+                </div>
+                <div class="ads1">
+                    <img src="image/blue.png" alt="">
+                </div>
+            </div> -->
         </section>
-
 
         <div class="adsection">
         <?php get_template_part('template/placeyouradds', 'content'); ?>
         </div>
-        
        <?php get_template_part('template/hotline', 'content'); ?>
  <?php get_footer(); ?>
- <?php wp_footer(); ?>   
+
         </main>  
-       
+        <?php wp_footer(); ?>    
         <script>
             // hamburger
             window.addEventListener("scroll", function(){
@@ -167,14 +155,6 @@ margin-left: 5rem;
                 top: "-200%",
                 ease:Expo.ease
             })
-      
-         
-            
-      
-         
-            
-
-
 
     </script>
 </body>

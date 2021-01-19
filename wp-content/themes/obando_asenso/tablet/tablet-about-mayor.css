@@ -1,3 +1,11 @@
+@media only screen and (max-width: 1172px) {
+    .menu li {
+        display: inline-block;
+        padding: 0px 13px;
+        font-size: 12px;
+    }
+}
+
 @media only screen and (max-width: 1044px) {
     /* For desktop: */
     .overlay img {
@@ -151,7 +159,7 @@
     /* For tablets: */
     .menu li {
         display: inline-block;
-        padding: 0px 10px;
+        padding: 0px 8px;
         font-size: 10px;
     }
     .content {
@@ -290,7 +298,6 @@
         width: 100%;
         border-radius: 5px;
         margin-top: 10px;
-        margin-left: 10px;
     }
     /* end */
 }

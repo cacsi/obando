@@ -45,8 +45,9 @@ tr {
 
      @media only screen and (max-width: 1044px) {
         .adsection{
-            width:93%;
+            width:100%;
             padding-left: 70px;
+            padding-right: 70px;
             margin-bottom: 50px;
         }
      }

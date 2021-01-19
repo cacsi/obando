@@ -38,6 +38,27 @@ margin-left: 6rem;
 }
 
 
+.background-container{
+         position:relative;
+        
+     }
+
+     .bg-sketch{
+         height:auto;
+         width:100%;
+         filter: opacity(15%);
+         margin-top:20px;
+        
+     }
+
+     .background-container .divcontent {
+         position:absolute;
+         bottom: 0;
+         top:0;
+         color:black;
+     }
+
+
 .title-news {
     border-radius: 5px 5px 0px 0px;
     text-transform: uppercase;
@@ -62,7 +83,6 @@ margin-left: 6rem;
 }
 
 
-
 .adsection{
          width: 100%;
          padding-left: 90px;
@@ -71,8 +91,8 @@ margin-left: 6rem;
 
      }
 
-     @media only screen and (max-width: 1200px) {
-        
+     @media only screen and (max-width: 1334px) {
+   
      }
 
      @media only screen and (max-width: 1044px) {
@@ -108,9 +128,14 @@ margin-left: 6rem;
                 <!--  -->
                     
                     <div class="content-news">
-                        
-                        <?php echo $Data; ?>
 
+                    <div class="background-container">
+                    <img class="bg-sketch" src= "<?php bloginfo('template_directory');?>/image/sketch-church.jpg" >
+                    <div class="divcontent">
+                        <?php echo $Data; ?>
+                    </div>
+
+                    </div>
 
 
                            <div class="mapwithtableflex" style="border-top: 1px solid #ccc;">
