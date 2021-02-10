@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'obando_wordpress' );
+define( 'DB_NAME', 's2govobandoph_wordpress' );
 
 /** MySQL database username */
 define( 'DB_USER', 'root' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'Clique.It!' );
+define( 'DB_PASSWORD', 'Obando.It!' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
