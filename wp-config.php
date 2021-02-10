@@ -26,7 +26,7 @@ define( 'DB_NAME', 's2govobandoph_wordpress' );
 define( 'DB_USER', 's2govobandoph_root' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'Obando.It!' );
+define( 'DB_PASSWORD', 'Obando@2020!' );
 
 /** MySQL hostname */
 define( 'DB_HOST', 'localhost' );
