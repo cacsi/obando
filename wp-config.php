@@ -23,7 +23,7 @@
 define( 'DB_NAME', 's2govobandoph_wordpress' );
 
 /** MySQL database username */
-define( 'DB_USER', 'root' );
+define( 'DB_USER', 's2govobandoph_root' );
 
 /** MySQL database password */
 define( 'DB_PASSWORD', 'Obando.It!' );
